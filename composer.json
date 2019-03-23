@@ -1,0 +1,25 @@
+{
+    "name": "cfpl0594/demo",
+    "description": "test composer",
+    "type": "project",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "cfpl",
+            "email": "363584465@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "gregwar/captcha": "dev-master"
+    },
+    "autoload":{
+        "files":[
+            "core/function.php"
+        ],
+        "psr-4":{
+            "core\\":"core/",
+            "web\\":"web/"
+        }
+    }
+}
